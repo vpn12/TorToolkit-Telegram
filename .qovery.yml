@@ -1,0 +1,11 @@
+---
+application:
+  name: "tortoolkit-telegram"
+  project: "Asdf2"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-tortoolkit-telegram"
+  routes:
+  - application_name: "tortoolkit-telegram"
+    paths:
+    - "/*"
