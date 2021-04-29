@@ -1,11 +1,11 @@
 ---
 application:
   name: "tortoolkit-telegram"
-  project: "asdf 3"
+  project: "asdf1"
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "tool 1"
+  name: "tortoolkit"
   version: "11"
 routers:
 - name: "main-tortoolkit-telegram"
