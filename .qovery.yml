@@ -1,15 +1,15 @@
 ---
 application:
-  name: "tortoolkit-bot-2"
-  project: "asdf2"
+  name: "bot-2"
+  project: "Asdf2"
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "Bot 2"
+  name: "Bot2"
   version: "12"
 routers:
-- name: "main-tortoolkit-bot-2"
+- name: "main-bot-2"
   routes:
-  - application_name: "tortoolkit-bot-2"
+  - application_name: "bot-2"
     paths:
     - "/*"
