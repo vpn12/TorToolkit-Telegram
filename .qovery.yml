@@ -1,15 +1,15 @@
 ---
 application:
-  name: "tortoolkit-telegram"
-  project: "asdf1"
+  name: "tortoolkit-bot-2"
+  project: "asdf2"
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "tortoolkit"
-  version: "11"
+  name: "Bot 2"
+  version: "12"
 routers:
-- name: "main-tortoolkit-telegram"
+- name: "main-tortoolkit-bot-2"
   routes:
-  - application_name: "tortoolkit-telegram"
+  - application_name: "tortoolkit-bot-2"
     paths:
     - "/*"
